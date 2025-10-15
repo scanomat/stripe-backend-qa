@@ -24,6 +24,10 @@ export default async function handler(req, res) {
             currency,
             metadata: { order_id },
             capture_method: 'automatic',
+            automatic_payment_methods: {
+                enabled: true,
+                allow_redirects: 'never'
+            }
         });
 
         res.status(200).json({
