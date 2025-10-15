@@ -1,0 +1,23 @@
+{
+  "name": "stripe-backend-qa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scanomat/stripe-backend-qa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scanomat/stripe-backend-qa/issues"
+  },
+  "homepage": "https://github.com/scanomat/stripe-backend-qa#readme",
+  "dependencies": {
+    "stripe": "^19.1.0"
+  }
+}

@@ -1,0 +1,58 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnpm-store/
+
+# Build output (not used by Vercel, but good to exclude if generated)
+dist/
+build/
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Vercel
+.vercel/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS / system
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+*.log.*
+*.out
+*.err
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Optional - coverage / testing
+coverage/
+.nyc_output/
+jest-html-reporters-*
+
+# Optional - TypeScript cache (if you ever use TS)
+*.tsbuildinfo
+
+# Optional - local test scripts / examples
+sandbox/
+playground/
